@@ -182,12 +182,15 @@ const Navbar = () => {
         } right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
 
           <div className='flex items-center justify-between px-5 py-6'>
+             <p className='text-2xl md:text-3xl font-semibold text-gray-900 tracking-tight'>
+  Prof<span className='text-primary'>Connect</span>
+</p>
 
-            <img
+            {/* <img
               src={assets.logo}
               className='w-36'
               alt=""
-            />
+            /> */}
 
             <img
               onClick={() => setShowMenu(false)}
