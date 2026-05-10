@@ -86,6 +86,16 @@ const Navbar = () => {
       </li>
     )}
   </NavLink>
+  <NavLink
+  to='https://profconnect-2.onrender.com'
+  target='_blank'
+>
+  <button
+    className='border border-primary text-primary px-5 py-2 rounded-full hover:bg-primary hover:text-white transition-all hidden md:block'
+  >
+    Admin Login
+  </button>
+</NavLink>
 
 </ul>
 
