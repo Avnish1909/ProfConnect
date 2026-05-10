@@ -245,6 +245,16 @@ const Navbar = () => {
               </p>
             </NavLink>
 
+            <NavLink
+            onClick={() => setShowMenu(false)}
+            to='https://your-admin-site.onrender.com'
+            target='_blank'
+          >
+            <p className='px-4 py-2 rounded inline-block'>
+              ADMIN LOGIN
+            </p>
+          </NavLink>
+
           </ul>
 
         </div>
