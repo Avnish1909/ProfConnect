@@ -87,9 +87,13 @@ const AppContextProvider = (props) => {
 
         } catch (error) {
 
-            console.log(error)
+             console.log(error)
 
             setUserData(false)
+
+            setToken('')
+
+            localStorage.removeItem('token')
 
         }
 
