@@ -247,7 +247,7 @@ const Navbar = () => {
 
             <NavLink
             onClick={() => setShowMenu(false)}
-            to='https://your-admin-site.onrender.com'
+            to='https://profconnect-2.onrender.com'
             target='_blank'
           >
             <p className='px-4 py-2 rounded inline-block'>
